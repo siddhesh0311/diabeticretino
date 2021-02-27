@@ -44,7 +44,7 @@ $("#image-selector").change(function () {
 
 let model;
 (async function () {
-	model = await tf.loadModel('https://drive.google.com/file/d/1NAC8vBp1PmQlsVdHRkgFagYgxhb4ctVo/view?usp=sharing');
+	model = await tf.loadModel('https://github.com/siddhesh0311/diabeticretino/blob/main/tfjs/model/model.json');
 	$("#selected-image").attr("src", "https://drive.google.com/file/d/1I9rWY8QyazwQpRbgmzYpJCi6if1CXyyg/view?usp=sharing")
 	
 	console.log('model_dr_2');
