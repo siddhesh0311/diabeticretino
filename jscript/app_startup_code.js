@@ -35,7 +35,7 @@ let model;
 	
 	model = await tf.loadModel('https://github.com/siddhesh0311/diabeticretino/blob/main/tfjs/model/model.json');
 	
-	$("#selected-image").attr("src", "http://dr.test.woza.work/assets/fundus_1.jpg");
+	$("#selected-image").attr("src", "https://github.com/siddhesh0311/diabeticretino/blob/main/assets/fundus_1.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
