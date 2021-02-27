@@ -45,7 +45,7 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	model = await tf.loadModel('https://github.com/siddhesh0311/diabeticretino/blob/main/tfjs/model/model.json');
-	$("#selected-image").attr("src", "https://drive.google.com/file/d/1I9rWY8QyazwQpRbgmzYpJCi6if1CXyyg/view?usp=sharing")
+	$("#selected-image").attr("src", "https://github.com/siddhesh0311/diabeticretino/blob/main/assets/fundus_1.jpg")
 	
 	console.log('model_dr_2');
 	
