@@ -33,7 +33,7 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://Diabetic-Retinopathy-Analyzer-master/tfjs/model.json');
+	model = await tf.loadModel('https://github.com/siddhesh0311/diabeticretino/blob/main/tfjs/model/model.json');
 	
 	$("#selected-image").attr("src", "http://dr.test.woza.work/assets/fundus_1.jpg");
 	
